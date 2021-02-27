@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19F6A93425EA4C9B002BAAAF /* DeviceCheckTokenGeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F6A92125EA4C9A002BAAAF /* DeviceCheckTokenGeneratorApp.swift */; };
+		19F6A93525EA4C9B002BAAAF /* DeviceCheckTokenGeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F6A92125EA4C9A002BAAAF /* DeviceCheckTokenGeneratorApp.swift */; };
+		19F6A93625EA4C9B002BAAAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F6A92225EA4C9A002BAAAF /* ContentView.swift */; };
+		19F6A93725EA4C9B002BAAAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F6A92225EA4C9A002BAAAF /* ContentView.swift */; };
+		19F6A93825EA4C9B002BAAAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F6A92325EA4C9B002BAAAF /* Assets.xcassets */; };
+		19F6A93925EA4C9B002BAAAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F6A92325EA4C9B002BAAAF /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19F6A92125EA4C9A002BAAAF /* DeviceCheckTokenGeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCheckTokenGeneratorApp.swift; sourceTree = "<group>"; };
+		19F6A92225EA4C9A002BAAAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		19F6A92325EA4C9B002BAAAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19F6A92825EA4C9B002BAAAF /* DeviceCheckTokenGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceCheckTokenGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19F6A92B25EA4C9B002BAAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19F6A93025EA4C9B002BAAAF /* DeviceCheckTokenGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceCheckTokenGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19F6A93225EA4C9B002BAAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19F6A93325EA4C9B002BAAAF /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19F6A92525EA4C9B002BAAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F6A92D25EA4C9B002BAAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19F6A91B25EA4C99002BAAAF = {
+			isa = PBXGroup;
+			children = (
+				19F6A92025EA4C99002BAAAF /* Shared */,
+				19F6A92A25EA4C9B002BAAAF /* iOS */,
+				19F6A93125EA4C9B002BAAAF /* macOS */,
+				19F6A92925EA4C9B002BAAAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19F6A92025EA4C99002BAAAF /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				19F6A92125EA4C9A002BAAAF /* DeviceCheckTokenGeneratorApp.swift */,
+				19F6A92225EA4C9A002BAAAF /* ContentView.swift */,
+				19F6A92325EA4C9B002BAAAF /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		19F6A92925EA4C9B002BAAAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19F6A92825EA4C9B002BAAAF /* DeviceCheckTokenGenerator.app */,
+				19F6A93025EA4C9B002BAAAF /* DeviceCheckTokenGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19F6A92A25EA4C9B002BAAAF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				19F6A92B25EA4C9B002BAAAF /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		19F6A93125EA4C9B002BAAAF /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				19F6A93225EA4C9B002BAAAF /* Info.plist */,
+				19F6A93325EA4C9B002BAAAF /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19F6A92725EA4C9B002BAAAF /* DeviceCheckTokenGenerator (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19F6A93C25EA4C9B002BAAAF /* Build configuration list for PBXNativeTarget "DeviceCheckTokenGenerator (iOS)" */;
+			buildPhases = (
+				19F6A92425EA4C9B002BAAAF /* Sources */,
+				19F6A92525EA4C9B002BAAAF /* Frameworks */,
+				19F6A92625EA4C9B002BAAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DeviceCheckTokenGenerator (iOS)";
+			productName = "DeviceCheckTokenGenerator (iOS)";
+			productReference = 19F6A92825EA4C9B002BAAAF /* DeviceCheckTokenGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19F6A92F25EA4C9B002BAAAF /* DeviceCheckTokenGenerator (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19F6A93F25EA4C9B002BAAAF /* Build configuration list for PBXNativeTarget "DeviceCheckTokenGenerator (macOS)" */;
+			buildPhases = (
+				19F6A92C25EA4C9B002BAAAF /* Sources */,
+				19F6A92D25EA4C9B002BAAAF /* Frameworks */,
+				19F6A92E25EA4C9B002BAAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DeviceCheckTokenGenerator (macOS)";
+			productName = "DeviceCheckTokenGenerator (macOS)";
+			productReference = 19F6A93025EA4C9B002BAAAF /* DeviceCheckTokenGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19F6A91C25EA4C99002BAAAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					19F6A92725EA4C9B002BAAAF = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					19F6A92F25EA4C9B002BAAAF = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 19F6A91F25EA4C99002BAAAF /* Build configuration list for PBXProject "DeviceCheckTokenGenerator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19F6A91B25EA4C99002BAAAF;
+			productRefGroup = 19F6A92925EA4C9B002BAAAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19F6A92725EA4C9B002BAAAF /* DeviceCheckTokenGenerator (iOS) */,
+				19F6A92F25EA4C9B002BAAAF /* DeviceCheckTokenGenerator (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19F6A92625EA4C9B002BAAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F6A93825EA4C9B002BAAAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F6A92E25EA4C9B002BAAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F6A93925EA4C9B002BAAAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19F6A92425EA4C9B002BAAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F6A93625EA4C9B002BAAAF /* ContentView.swift in Sources */,
+				19F6A93425EA4C9B002BAAAF /* DeviceCheckTokenGeneratorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F6A92C25EA4C9B002BAAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F6A93725EA4C9B002BAAAF /* ContentView.swift in Sources */,
+				19F6A93525EA4C9B002BAAAF /* DeviceCheckTokenGeneratorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		19F6A93A25EA4C9B002BAAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19F6A93B25EA4C9B002BAAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		19F6A93D25EA4C9B002BAAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DeviceCheckTokenGenerator;
+				PRODUCT_NAME = DeviceCheckTokenGenerator;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19F6A93E25EA4C9B002BAAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DeviceCheckTokenGenerator;
+				PRODUCT_NAME = DeviceCheckTokenGenerator;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19F6A94025EA4C9B002BAAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DeviceCheckTokenGenerator;
+				PRODUCT_NAME = DeviceCheckTokenGenerator;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		19F6A94125EA4C9B002BAAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DeviceCheckTokenGenerator;
+				PRODUCT_NAME = DeviceCheckTokenGenerator;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19F6A91F25EA4C99002BAAAF /* Build configuration list for PBXProject "DeviceCheckTokenGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19F6A93A25EA4C9B002BAAAF /* Debug */,
+				19F6A93B25EA4C9B002BAAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19F6A93C25EA4C9B002BAAAF /* Build configuration list for PBXNativeTarget "DeviceCheckTokenGenerator (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19F6A93D25EA4C9B002BAAAF /* Debug */,
+				19F6A93E25EA4C9B002BAAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19F6A93F25EA4C9B002BAAAF /* Build configuration list for PBXNativeTarget "DeviceCheckTokenGenerator (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19F6A94025EA4C9B002BAAAF /* Debug */,
+				19F6A94125EA4C9B002BAAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19F6A91C25EA4C99002BAAAF /* Project object */;
+}
