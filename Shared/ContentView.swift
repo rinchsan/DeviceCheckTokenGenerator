@@ -6,11 +6,24 @@
 //
 
 import SwiftUI
+import DeviceCheck
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Button("Generate DeviceCheck Token") {
+            DCDevice.current.generateToken { (data, error) in
+                guard let data = data else {
+                    guard let error = error else {
+                        print("unknown error")
+                        return
+                    }
+                    print(error)
+                    return
+                }
+                let token = data.base64EncodedString()
+                print(token)
+            }
+        }.padding()
     }
 }
 
